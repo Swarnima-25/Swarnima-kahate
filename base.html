@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body style="background-color:grey">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <strong><h1><a href="/home" class="navbar-brand">Health Care Home</a></h1>
+
+
+    </div>
+        <ul class="nav navbar-nav" align="center">
+          <h3><li><a href="/exerciise">Exercises</a></li></h3>
+          <h3><li><a href="/dietplan">Diet Plan</a></li></h3>
+          <h3><li><a href="/entertain">Entertainment</a></li></h3>
+            <h3><li><a href="/doctor">Doctors</a></li></h3>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" align="ri">
+          <li><a href="/signup">Signup</a></li>
+          <li><a href="/accounts/login">Login</a></li>
+          <li><a href="/accounts/logout">Logout</a></li>
+          </ul>
+        </div>
+    </nav>
+
+  {%block body_block%}
+  {%endblock%}
+  </body>
+  </html>
